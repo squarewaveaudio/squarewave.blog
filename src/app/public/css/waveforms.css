@@ -1,0 +1,27 @@
+/* #waveform::part(wrapper) { } */
+
+/* #waveform ::part(cursor) {} */
+
+#playbutton {
+    cursor: pointer;
+}
+
+#playbutton.playing::after {
+    display: block;
+    content: ' ';
+    height: 15px;
+    width: 15px;
+    background: var(--white);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+#player-container {
+    box-shadow: 0 3px 9px 0 rgba(0,0,0,.025);
+    padding: 24px;
+    background: var(--lighter-gray);
+    display: flex;
+    flex-direction: column;
+}

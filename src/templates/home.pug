@@ -1,0 +1,26 @@
+include time.pug
+doctype html
+html(lang="en")
+  head
+    if seo.title
+      title=seo.title
+    else
+      title=""
+    if seo.description
+      meta(name="description", content=seo.description)
+    else
+      meta(name="description", content="")
+    include head.pug
+  body.hidden
+    include nav.pug
+    main
+      each post in posts
+        article
+          div.header
+              a(href="/posts/" +post.path) #[h2=post.attributes.title]
+              div.meta #[+time(post.attributes.date)]
+          div.content
+              | !{post.body}
+    include footer.pug
+
+
