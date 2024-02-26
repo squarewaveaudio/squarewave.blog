@@ -38,3 +38,10 @@ a {
   color: var(--white);
   background: var(--blue);
 }
+
+@media screen and (max-width: 720px) {
+  main {
+    padding-top: 104px;
+    height: 100%;
+  }
+}

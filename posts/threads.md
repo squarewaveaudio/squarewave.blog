@@ -1,6 +1,6 @@
 ---
 date: "February 1, 2024"
-title: "threads- oscillations in G"
+title: "Threads- Oscillations In G"
 description: "A quick patch exploring a four note sequence in G. Made with dual-oscillator voice of the 258t and the 'Buchla Box'"
 published: true
 ---

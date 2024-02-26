@@ -1,6 +1,6 @@
 ---
 date: "February 2, 2024"
-title: "andromeda- oscillations in G"
+title: "Andromeda- Oscillations In G"
 description: "A quick patch exploring a four note sequence in G. Made with dual-oscillator voice of the 258t and the 'Buchla Box'"
 published: true
 ---

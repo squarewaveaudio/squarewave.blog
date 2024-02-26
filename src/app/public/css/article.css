@@ -28,7 +28,6 @@ article time {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  text-transform: lowercase;
   margin-top: 10px;
 }
 
@@ -63,4 +62,11 @@ article > .header a {
 
 article p:first-of-type {
   margin-top: 0;
+}
+
+@media screen and (max-width: 720px) {
+  article {
+    padding: 30px;
+    margin-bottom: 30px;
+  }
 }
